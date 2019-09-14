@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Water Effect</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Water Repel Plugin</h1>
+            <p>A Nice plugin for your website</p>
+        </header>
+    </section>
+    <script src="jquery.ripples.js"></script>
+    <script src="jquery.ripples-min.js"></script>
+    
+    <script>
+        $('body').ripples({
+			resolution: 256,
+			dropRadius: 1, //px
+			perturbance: 0.01,
+		});
+    </script>
+</body>
+</html>
